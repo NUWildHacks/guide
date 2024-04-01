@@ -14,6 +14,10 @@ export default {
     </div>
   ),
   darkMode: false,
+  nextThemes: {
+    defaultTheme: 'light',
+    enableSystem: false,
+  },
   primaryHue: 0,
   primarySaturation: 98.57142857142858,
 };
