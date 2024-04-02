@@ -26,7 +26,7 @@ export default {
     key: 'banner-discord',
     text: (
       <a
-        href=""
+        href="https://www.wildhacks.net/discord"
         style={{
           display: 'flex',
           gap: '8px',
