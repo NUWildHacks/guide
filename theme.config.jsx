@@ -1,3 +1,9 @@
+import { useRouter } from 'next/router';
+
+const title = 'WildHacks Guide';
+const titleTemplate = '%s – WildHacks Guide';
+const description = 'WildHacks Hackathon Guide';
+
 export default {
   logo: (
     <div
@@ -65,8 +71,11 @@ export default {
     ),
   },
   useNextSeoProps() {
-    return {
-      titleTemplate: '%s – WildHacks Guide',
-    };
+    const { asPath } = useRouter();
+    if (asPath === '/') {
+      return { title, description };
+    }
+
+    return { titleTemplate, description };
   },
 };
