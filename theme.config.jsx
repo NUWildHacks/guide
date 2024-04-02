@@ -16,8 +16,57 @@ export default {
   darkMode: false,
   nextThemes: {
     defaultTheme: 'light',
-    enableSystem: false,
   },
-  primaryHue: 0,
-  primarySaturation: 98.57142857142858,
+  primaryHue: 29.11764705882354,
+  primarySaturation: 50.74626865671641,
+  search: {
+    placeholder: 'Search guide...',
+  },
+  banner: {
+    key: 'banner-discord',
+    text: (
+      <a
+        href=""
+        style={{
+          display: 'flex',
+          gap: '8px',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <img
+          src="/discord.svg"
+          style={{
+            height: '16px',
+          }}
+        />
+        <span>Join the WildHacks 2024 Discord server →</span>
+      </a>
+    ),
+  },
+  sidebar: {
+    toggleButton: true,
+  },
+  editLink: {
+    component: null,
+  },
+  feedback: {
+    content: null,
+  },
+  footer: {
+    text: (
+      <span style={{ width: '100%', textAlign: 'center' }}>
+        Copyright © {new Date().getFullYear()}{' '}
+        <a href="https://www.wildhacks.net" target="_blank">
+          WildHacks
+        </a>
+        .
+      </span>
+    ),
+  },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – WildHacks Guide',
+    };
+  },
 };
