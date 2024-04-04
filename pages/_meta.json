@@ -12,5 +12,8 @@
   "logistics": "Logistics",
   "project-guidelines": "Project Guidelines",
   "judging-and-awards": "Judging and Awards",
-  "help-desk": "Help Desk"
+  "help-desk": "Help Desk",
+  "judging-guide": {
+    "display": "hidden"
+  }
 }
