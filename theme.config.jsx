@@ -29,10 +29,10 @@ export default {
     placeholder: 'Search guide...',
   },
   banner: {
-    key: 'banner-discord',
+    key: 'banner-workshops',
     text: (
       <a
-        href="https://www.wildhacks.net/discord"
+        href="/workshops"
         style={{
           display: 'flex',
           gap: '8px',
@@ -40,13 +40,7 @@ export default {
           justifyContent: 'center',
         }}
       >
-        <img
-          src="/discord.svg"
-          style={{
-            height: '16px',
-          }}
-        />
-        <span>Join the WildHacks 2024 Discord server →</span>
+        <span>Workshop Night is tonight! Learn more →</span>
       </a>
     ),
   },
