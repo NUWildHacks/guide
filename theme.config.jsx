@@ -29,10 +29,10 @@ export default {
     placeholder: 'Search guide...',
   },
   banner: {
-    key: 'banner-workshops',
+    key: 'banner-check-in',
     text: (
       <a
-        href="/workshops"
+        href="/logistics/checking-in"
         style={{
           display: 'flex',
           gap: '8px',
@@ -40,7 +40,7 @@ export default {
           justifyContent: 'center',
         }}
       >
-        <span>Workshop Night is tonight! Learn more →</span>
+        <span>Check in from 9:30 AM to 11:00 AM. Learn more →</span>
       </a>
     ),
   },
