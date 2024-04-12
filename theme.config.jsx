@@ -28,22 +28,6 @@ export default {
   search: {
     placeholder: 'Search guide...',
   },
-  banner: {
-    key: 'banner-check-in',
-    text: (
-      <a
-        href="/logistics/checking-in"
-        style={{
-          display: 'flex',
-          gap: '8px',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-      >
-        <span>Check in from 9:30 AM to 11:00 AM. Learn more →</span>
-      </a>
-    ),
-  },
   sidebar: {
     toggleButton: true,
   },
