@@ -5,12 +5,6 @@
     "href": "https://dashboard.wildhacks.net",
     "newWindow": true
   },
-  "code":{
-    "title": "WildHacker Code",
-    "type": "page",
-    "href": "https://dashboard.wildhacks.net/code",
-    "newWindow": true
-  },
   "index": "Overview",
   "schedule": "Schedule",
   "map": "Map",
