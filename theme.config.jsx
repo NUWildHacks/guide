@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import 'katex/dist/katex.min.css'
 
 const title = 'WildHacks Guide';
 const titleTemplate = '%s – WildHacks Guide';
